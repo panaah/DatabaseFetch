@@ -10,12 +10,14 @@
 		982AEAF21A828A93000A3A25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 982AEAF11A828A93000A3A25 /* main.m */; };
 		982AEAF51A828A93000A3A25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 982AEAF41A828A93000A3A25 /* AppDelegate.m */; };
 		982AEAF81A828A93000A3A25 /* Practice_Core_Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 982AEAF61A828A93000A3A25 /* Practice_Core_Data.xcdatamodeld */; };
-		982AEAFB1A828A93000A3A25 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 982AEAFA1A828A93000A3A25 /* MasterViewController.m */; };
-		982AEAFE1A828A93000A3A25 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 982AEAFD1A828A93000A3A25 /* DetailViewController.m */; };
-		982AEB011A828A93000A3A25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 982AEAFF1A828A93000A3A25 /* Main.storyboard */; };
 		982AEB031A828A93000A3A25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 982AEB021A828A93000A3A25 /* Images.xcassets */; };
 		982AEB061A828A93000A3A25 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 982AEB041A828A93000A3A25 /* LaunchScreen.xib */; };
 		982AEB121A828A93000A3A25 /* Practice_Core_DataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 982AEB111A828A93000A3A25 /* Practice_Core_DataTests.m */; };
+		982AEB1D1A828CC0000A3A25 /* Adress.m in Sources */ = {isa = PBXBuildFile; fileRef = 982AEB1C1A828CC0000A3A25 /* Adress.m */; };
+		982AEB201A828CC1000A3A25 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 982AEB1F1A828CC1000A3A25 /* Person.m */; };
+		98ECBD681A83A5CE00F27750 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98ECBD671A83A5CE00F27750 /* ListTableViewController.m */; };
+		98ECBD6C1A83AC0E00F27750 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98ECBD6A1A83AC0E00F27750 /* AddViewController.m */; };
+		98ECBD6D1A83AC0E00F27750 /* AddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98ECBD6B1A83AC0E00F27750 /* AddViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,16 +37,20 @@
 		982AEAF31A828A93000A3A25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		982AEAF41A828A93000A3A25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		982AEAF71A828A93000A3A25 /* Practice_Core_Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Practice_Core_Data.xcdatamodel; sourceTree = "<group>"; };
-		982AEAF91A828A93000A3A25 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		982AEAFA1A828A93000A3A25 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		982AEAFC1A828A93000A3A25 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		982AEAFD1A828A93000A3A25 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		982AEB001A828A93000A3A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		982AEB021A828A93000A3A25 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		982AEB051A828A93000A3A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		982AEB0B1A828A93000A3A25 /* Practice Core DataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practice Core DataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		982AEB101A828A93000A3A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		982AEB111A828A93000A3A25 /* Practice_Core_DataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Practice_Core_DataTests.m; sourceTree = "<group>"; };
+		982AEB1B1A828CC0000A3A25 /* Adress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Adress.h; path = "Model/Core Data/Adress.h"; sourceTree = "<group>"; };
+		982AEB1C1A828CC0000A3A25 /* Adress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Adress.m; path = "Model/Core Data/Adress.m"; sourceTree = "<group>"; };
+		982AEB1E1A828CC1000A3A25 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = "Model/Core Data/Person.h"; sourceTree = "<group>"; };
+		982AEB1F1A828CC1000A3A25 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = "Model/Core Data/Person.m"; sourceTree = "<group>"; };
+		98ECBD661A83A5CE00F27750 /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
+		98ECBD671A83A5CE00F27750 /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
+		98ECBD691A83AC0E00F27750 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		98ECBD6A1A83AC0E00F27750 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		98ECBD6B1A83AC0E00F27750 /* AddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,14 +94,11 @@
 			children = (
 				982AEAF31A828A93000A3A25 /* AppDelegate.h */,
 				982AEAF41A828A93000A3A25 /* AppDelegate.m */,
-				982AEAF91A828A93000A3A25 /* MasterViewController.h */,
-				982AEAFA1A828A93000A3A25 /* MasterViewController.m */,
-				982AEAFC1A828A93000A3A25 /* DetailViewController.h */,
-				982AEAFD1A828A93000A3A25 /* DetailViewController.m */,
-				982AEAFF1A828A93000A3A25 /* Main.storyboard */,
+				98ECBD601A839DF800F27750 /* View Controllers */,
 				982AEB021A828A93000A3A25 /* Images.xcassets */,
 				982AEB041A828A93000A3A25 /* LaunchScreen.xib */,
 				982AEAF61A828A93000A3A25 /* Practice_Core_Data.xcdatamodeld */,
+				982AEB211A828CD2000A3A25 /* Model */,
 				982AEAEF1A828A93000A3A25 /* Supporting Files */,
 			);
 			path = "Practice Core Data";
@@ -125,6 +128,53 @@
 				982AEB101A828A93000A3A25 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		982AEB211A828CD2000A3A25 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				982AEB221A828CEA000A3A25 /* Core Data */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		982AEB221A828CEA000A3A25 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				982AEB1E1A828CC1000A3A25 /* Person.h */,
+				982AEB1F1A828CC1000A3A25 /* Person.m */,
+				982AEB1B1A828CC0000A3A25 /* Adress.h */,
+				982AEB1C1A828CC0000A3A25 /* Adress.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		98ECBD601A839DF800F27750 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				98ECBD611A839DF800F27750 /* Add */,
+				98ECBD621A839DF800F27750 /* List */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		98ECBD611A839DF800F27750 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				98ECBD691A83AC0E00F27750 /* AddViewController.h */,
+				98ECBD6A1A83AC0E00F27750 /* AddViewController.m */,
+				98ECBD6B1A83AC0E00F27750 /* AddViewController.xib */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		98ECBD621A839DF800F27750 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				98ECBD661A83A5CE00F27750 /* ListTableViewController.h */,
+				98ECBD671A83A5CE00F27750 /* ListTableViewController.m */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				982AEB011A828A93000A3A25 /* Main.storyboard in Resources */,
+				98ECBD6D1A83AC0E00F27750 /* AddViewController.xib in Resources */,
 				982AEB061A828A93000A3A25 /* LaunchScreen.xib in Resources */,
 				982AEB031A828A93000A3A25 /* Images.xcassets in Resources */,
 			);
@@ -227,11 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				982AEAFE1A828A93000A3A25 /* DetailViewController.m in Sources */,
-				982AEAFB1A828A93000A3A25 /* MasterViewController.m in Sources */,
+				982AEB201A828CC1000A3A25 /* Person.m in Sources */,
 				982AEAF81A828A93000A3A25 /* Practice_Core_Data.xcdatamodeld in Sources */,
 				982AEAF51A828A93000A3A25 /* AppDelegate.m in Sources */,
+				98ECBD6C1A83AC0E00F27750 /* AddViewController.m in Sources */,
 				982AEAF21A828A93000A3A25 /* main.m in Sources */,
+				982AEB1D1A828CC0000A3A25 /* Adress.m in Sources */,
+				98ECBD681A83A5CE00F27750 /* ListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +306,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		982AEAFF1A828A93000A3A25 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				982AEB001A828A93000A3A25 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		982AEB041A828A93000A3A25 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -422,6 +466,7 @@
 				982AEB171A828A93000A3A25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		982AEB181A828A93000A3A25 /* Build configuration list for PBXNativeTarget "Practice Core DataTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +475,7 @@
 				982AEB1A1A828A93000A3A25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
